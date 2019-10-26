@@ -6,3 +6,6 @@ nuget FSharp.Core
 nuget FSharpx.Collections
 nuget NodaTime
 nuget FSharpPlus              prerelease
+nuget Giraffe
+nuget Microsoft.Extensions.Configuration
+nuget Microsoft.Extensions.Configuration.Ini

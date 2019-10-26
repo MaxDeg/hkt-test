@@ -1,3 +1,6 @@
 FSharp.Core
 FSharpx.Collections
 NodaTime
+Giraffe
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.Configuration.Ini
