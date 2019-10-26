@@ -1,0 +1,9 @@
+.fake/
+obj/
+bin/
+packages/
+paket-files/
+.vs/
+.idea/
+.idea/**/
+.ionide/

@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+framework: netcoreapp3.0
+storage: none
+
+nuget FSharp.Core
+nuget FSharpx.Collections
+nuget NodaTime
+nuget FSharpPlus              prerelease

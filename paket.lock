@@ -1,0 +1,9 @@
+STORAGE: NONE
+RESTRICTION: == netcoreapp3.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (4.7)
+    FSharpPlus (1.1.0-ci00272)
+      FSharp.Core (>= 4.6.2)
+    FSharpx.Collections (2.0)
+    NodaTime (2.4.7)
