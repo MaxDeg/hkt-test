@@ -8,7 +8,6 @@ module Configuration =
   open System.IO
   open Microsoft.Extensions.Hosting
   open Microsoft.Extensions.Configuration
-  open Microsoft.Extensions.Configuration.Ini
 
   type AppConfiguration =
     { env     : string
@@ -19,6 +18,7 @@ module Configuration =
     let create () =
       let config =
         ConfigurationBuilder()
+          .AddEnvironmentVariables("DOTNET_")
           .AddEnvironmentVariables("ASPNETCORE_")
           .Build()
 

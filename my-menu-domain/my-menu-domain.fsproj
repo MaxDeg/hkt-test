@@ -1,18 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.0</TargetFramework>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <Compile Include="HigherKindedTypes.fs" />
-        <Compile Include="GiraffeCE.fs" />
-        <Compile Include="Program.fs" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <Content Include="appsettings.ini" CopyToOutputDirectory="Always" />
-    </ItemGroup>
-
-    <Import Project="..\.paket\Paket.Restore.targets" />
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="HigherKindedTypes.fs" />
+    <Compile Include="GiraffeCE.fs" />
+    <Compile Include="IpGeoLocations.fs" />
+    <Compile Include="Program.fs" />
+    <Content Include="appsettings.ini" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
